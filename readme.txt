@@ -16,7 +16,7 @@ Simple Diary is meant to be simple enough to be used out of the box. Simple, but
 
 Here's the list of the settings (see screenshots for further infos):
 
-* Custom post type "reminder" available. The reminder infos : Title, start date (required), end date (optional), start time(optional), end time (optional), location (required), url (optionnal), article (optional). The date and time infos are set using [pickadate.js](http://wordpress.org/ "Go to the pickadate.js homepage") jQuery plugin. All the system (compose reminder page and datepicker) is responsive.
+* Custom post type "reminder" available. The reminder infos : Title, start date (required), end date (optional), start time(optional), end time (optional), location (required), url (optionnal), article (optional). The date and time infos are set using [pickadate.js](http://amsul.ca/pickadate.js/ "Go to the pickadate.js homepage") jQuery plugin. All the system (compose reminder page and datepicker) is responsive.
 * The admin reminders edit page is sorted by start date and contain title, start date, end date, location and creation/modification date. All columns are sortable except location column.
 * Option page will let you modify some settings : Title of the diary page, slug modification, reminder count listed in upcoming reminders.
 * All default WordPress themes (twentyten, twentyeleven, twentytwelve, twentythirteen, twentyfourteen) can easily be updated to take in account the reminders. You just have to get archive-reminder.php, content-reminder.php or loop-reminder.php, single-reminder.php from `/simple-diary/themes-support/your_theme/` and put it into your hteme folder (`/wp-content/themes/your-theme/`). You can take these files also as examples to customize Diary and reminders for your theme.
@@ -52,14 +52,14 @@ Edit the `/simple-diary/simdiaw-template-functions.php` file, you will find all 
 Yes, you can list the upcoming reminders everywhere you want, you just have to use the `the_simdiaw_upcoming_reminders()` function to get them in list format.
 
 This code:
-    <ul>
-    <?php the_simdiaw_upcoming_reminders(2) ?>
-    </ul>
+`&lt;ul&gt;
+&lt;?php the_simdiaw_upcoming_reminders(2) ?&gt;
+&lt;/ul&gt;`
 Will generate a html code like this:
-    <ul>
-        <li>Eiffel tower visiting<br>Date: 30/06/2014<br>Location: Paris</li>
-        <li>Storks observation<br>Date: 06/06/2014<br>Location: Obersoultzbach</li>
-    </ul>
+`&lt;ul&gt;
+  &lt;li&gt;Eiffel tower visiting&lt;br&gt;Date: 30/06/2014&lt;br&gt;Location: Paris&lt;/li&gt;
+  &lt;li&gt;Storks observation&lt;br&gt;Date: 06/06/2014&lt;br&gt;Location: Obersoultzbach&lt;/li&gt;
+&lt;/ul&gt;`
 
 == Screenshots ==
 

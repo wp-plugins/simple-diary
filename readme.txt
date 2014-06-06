@@ -52,14 +52,14 @@ Edit the `/simple-diary/simdiaw-template-functions.php` file, you will find all 
 Yes, you can list the upcoming reminders everywhere you want, you just have to use the `the_simdiaw_upcoming_reminders()` function to get them in list format.
 
 This code:
-    <ul>
+    `<ul>
     <?php the_simdiaw_upcoming_reminders(2) ?>
-    </ul>
+    </ul>`
 Will generate a html code like this:
-    <ul>
+    `<ul>
         <li>Eiffel tower visiting<br>Date: 30/06/2014<br>Location: Paris</li>
         <li>Storks observation<br>Date: 06/06/2014<br>Location: Obersoultzbach</li>
-    </ul>
+    </ul>`
 
 == Screenshots ==
 

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simdiw french translation\n"
+"POT-Creation-Date: 2014-06-06 10:49+0100\n"
+"PO-Revision-Date: 2014-06-06 10:49+0100\n"
+"Last-Translator: Jojaba <jojaba@gmail.com>\n"
+"Language-Team: Jojaba <jojaba@gmail.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: G:\\wamp\\www\\wordpress\\wp-content\\plugins\\simple-"
+"diary\n"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:13
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:34
+msgid "Diary options"
+msgstr "Options de l'agenda"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:14
+msgid "Simple Diary"
+msgstr "Simple Diary"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:54
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:95
+msgid "Diary page title"
+msgstr "Titre de la page agenda"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:103
+msgid "Slug"
+msgstr "Slug (identifiant)"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:111
+msgid "Upcoming reminders count"
+msgstr "Nombre de pense-bêtes à venir"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:122
+msgid "Here you can set the options of Simple Diary plugin."
+msgstr "Ici vous pouvez définir les paramètres du plugin Simple Diary"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:130
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:174
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:7
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:249
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:40
+msgid "Diary"
+msgstr "Agenda"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:135
+msgid "The title that will be displayed on top of diary pages."
+msgstr "Le titre qui s'affichera en haut des pages agenda"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:143
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:179
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:8
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:256
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:28
+msgid "diary"
+msgstr "agenda"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:148
+#, php-format
+msgid ""
+"The slug that is used to identify the reminders page. This slug must be URL "
+"friendly so only lowercase characters, numbers and \"-\" are allowed (no "
+"spaces, no accentuated characters). If you defined your permalink to have "
+"nice URL in the <a href=\"options-permalink.php\">Permalink option page</a> "
+"you can get the Diary page on <code>%1$s</code>. If not, this page will be "
+"available on <code>%2$s</code>."
+msgstr ""
+"Le slug qui est utilisé pour identifier la page des pense-bêtes. Ce lsug "
+"doit être prévu pour une URL donc composé uniquement de minuscules, de "
+"chiffres et de tirets (pas d'espace, pas de caractères accentués). Si vous "
+"avez modifié vos permaliens afin de les rendre SEO dans la <a href=\"options-"
+"permalink.php\">page d'options permalien</a> vous pourrez atteindre la page "
+"d'agenda par l'url <code>%1$s</code>. Sinon, cette page est accessible par "
+"l'url <code>%2$s</code>."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:161
+msgid ""
+"Default number of upcoming reminders that should be displayed when using for "
+"exemple handcrafted sidebar element with <code>the_simdiaw_upcoming_reminders"
+"()</code> function. Will be overriden by value set in Simple Diary widget or "
+"in the template function <code>the_simdiaw_upcoming_reminders()</code> (ex: "
+"<code>the_simdiaw_upcoming_reminders(5)</code> will display the next 5 "
+"upcoming reminders)."
+msgstr ""
+"Le nombre de pense-bêtes à venir à afficher lorsque vous utilisez un élément "
+"de panneau latéral personnalisé avec la fonction "
+"<code>the_simdiaw_upcoming_reminders()</code>. Cette valeur ne sera pas "
+"prise en compte lorsque le widget Simple Diary est utilisé ou lorsque ce "
+"nombre est indiqué dans la fonction <code>the_simdiaw_upcoming_reminders()</"
+"code> (exemple : <code>the_simdiaw_upcoming_reminders(5)</code> affichera "
+"les 5 pense-bêtes à venir)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:278
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:340
+msgid "Location:"
+msgstr "Lieu&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:283
+msgid "Related article"
+msgstr "Article en relation"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:285
+msgid "Related external resource"
+msgstr "Ressource externe en relation"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:339
+msgid "Date:"
+msgstr "Date&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-widget.php:11
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-widget.php:21
+msgid "Upcoming reminders"
+msgstr "Pense-bêtes à venir"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-widget.php:14
+msgid "Listing of the upcoming simple diary reminders."
+msgstr "Listing des pense-bêtes Simple Diary"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-widget.php:45
+msgid "Title:"
+msgstr "Titre&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-widget.php:48
+msgid "Number of reminders to show:"
+msgstr "Nombre de pense-bêtes à afficher&nbsp:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:30
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:107
+msgid "Reminders"
+msgstr "Pense-bêtes"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:31
+msgid "Reminder"
+msgstr "Pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:32
+msgid "New"
+msgstr "Ajouter"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:33
+#, fuzzy
+msgid "Add a reminder"
+msgstr "Ajouter un pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:34
+msgid "Modify the reminder"
+msgstr "Modifier le pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:35
+msgid "New reminder"
+msgstr "Nouveau pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:36
+msgid "All reminders"
+msgstr "Tous les pense-bêtes"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:37
+msgid "Show the reminder"
+msgstr "Afficher le pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:38
+msgid "Search for reminders"
+msgstr "Chercher dans les pense-bêtes"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:81
+#, php-format
+msgid "Reminder updated. <a href=\"%s\">View reminder</a>"
+msgstr "Pense-bête mis à jour. <a href=\"%s\">Afficher le pense-bête</a>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:82
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:83
+msgid "Custom field deleted."
+msgstr "Champs personnalisé supprimé."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:84
+msgid "Reminder updated."
+msgstr "Pense-bête mis à jour."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:86
+#, php-format
+msgid "Reminder restored to revision from %s"
+msgstr "Pense-bête rétabli à la révision %s"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:87
+#, php-format
+msgid "Reminder published. <a href=\"%s\">View reminder</a>"
+msgstr "Pense-bête publié.  <a href=\"%s\">Afficher le pense-bête</a>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:88
+msgid "Reminder saved."
+msgstr "Pense-bête enregistré."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:89
+#, php-format
+msgid ""
+"Reminder submitted. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
+msgstr ""
+"Pense-bête envoyé. <a target=\"_blank\" href=\"%s\">Aperçu du pense-bête</a>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:90
+#, php-format
+msgid ""
+"Reminder scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview reminder</a>"
+msgstr ""
+"Pense-bête programmé pour : <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Aperçu du pense-bête</a>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:92
+msgid "M j, Y @ G:i"
+msgstr "j, M Y à G:i"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:93
+#, php-format
+msgid ""
+"Reminder draft updated. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
+msgstr ""
+"Brouillon du pense-bête mis à jour. <a target=\"_blank\" href=\"%s\">Aperçu "
+"du pense-bête</a>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:108
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:235
+msgid "Starting date"
+msgstr "Date de début"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:109
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:240
+msgid "Ending date"
+msgstr "Date de fin"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:110
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:264
+msgid "Location"
+msgstr "Lieu"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:111
+msgid "Created/modified"
+msgstr "Créé/modifié"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:218
+msgid "Info about the reminder"
+msgstr "Informations à propos du pense-bête"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:250
+msgid "Starting time"
+msgstr "Horaire de début"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:255
+msgid "Ending time"
+msgstr "Horaire de fin"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:272
+msgid "Either an URL"
+msgstr "Soit une URL"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:281
+msgid "No article selected"
+msgstr "Pas d'article sélectionné"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:295
+msgid "… or an article"
+msgstr "… soit un article"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:301
+msgid "required informations."
+msgstr "informations nécessaires."
+
+#~ msgid "View reminder"
+#~ msgstr "Afficher le pense-bête"
+
+#~ msgid "Preview reminder"
+#~ msgstr "Aperçu du pense-bête"

@@ -103,12 +103,23 @@ add_filter( 'post_updated_messages', 'simdiaw_reminder_updated_messages' );
 
 // Defining columns in edit page
 function add_simdiaw_columns($gallery_columns) {
+    // Fetching options values
+    $options = get_option( 'simdiaw_settings_options' );
+    $columns_in_edit_page = (is_array($options['columns_in_edit_page'])) ? $options['columns_in_edit_page'] : array('end_date_column', 'location_column', 'creation_column');	
+    // Creating the columns
     $new_columns['cb'] = '<input type="checkbox" />';
     $new_columns['title'] = __('Reminders','simdiaw');
     $new_columns['start_date'] = __( 'Starting date', 'simdiaw' );
-    $new_columns['end_date'] = __( 'Ending date', 'simdiaw' );
-    $new_columns['location'] = __('Location','simdiaw');
-    $new_columns['date'] = __('Created or modified', 'simdiaw');
+    if (in_array('end_date_column', $columns_in_edit_page))
+        $new_columns['end_date'] = __( 'Ending date', 'simdiaw' );
+    if (in_array('start_time_column', $columns_in_edit_page))
+        $new_columns['start_time'] = __( 'Starting time', 'simdiaw' );
+    if (in_array('end_time_column', $columns_in_edit_page))
+        $new_columns['end_time'] = __( 'Ending time', 'simdiaw' );
+    if (in_array('location_column', $columns_in_edit_page))
+        $new_columns['location'] = __('Location','simdiaw');
+    if (in_array('creation_column', $columns_in_edit_page))
+        $new_columns['date'] = __('Created or modified', 'simdiaw');
  
     return $new_columns;
 }
@@ -127,6 +138,16 @@ function manage_simdiaw_reminder_columns($column_name, $id) {
         case 'end_date':
             $get_end_date = $wpdb->get_var("SELECT meta_value FROM $wpdb->postmeta WHERE post_id = $id AND meta_key = 'simdiaw-end-date';");
             if ($get_end_date != '') echo date_i18n( get_option( 'date_format' ), strtotime( $get_end_date ) );
+        break;
+        
+        case 'start_time':
+            $get_start_time = $wpdb->get_var("SELECT meta_value FROM $wpdb->postmeta WHERE post_id = $id AND meta_key = 'simdiaw-start-time';");
+            if ($get_start_time != '') echo date_i18n( get_option( 'time_format' ), strtotime( $get_start_time ) );
+        break;
+        
+        case 'end_time':
+            $get_end_time = $wpdb->get_var("SELECT meta_value FROM $wpdb->postmeta WHERE post_id = $id AND meta_key = 'simdiaw-end-time';");
+            if ($get_end_time != '') echo date_i18n( get_option( 'time_format' ), strtotime( $get_end_time ) );
         break;
         
         case 'location':

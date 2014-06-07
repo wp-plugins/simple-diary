@@ -298,14 +298,17 @@ function the_simdiaw_meta_date() {
         echo '<meta itemprop="startDate" content="'.$start_date.'">';
 }
 
-function the_simdiaw_reminders_query() {
+function the_simdiaw_reminders_query($n = null) {
+    $options = get_option( 'simdiaw_settings_options' );
+    $reminders_count = ($options['diary_reminders_count'] > 0) ? $options['diary_reminders_count'] : 10;
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
-        'post_type'     => 'reminder',
-        'meta_key'      => 'simdiaw-start-date',
-        'orderby'       => 'meta_value',
-        'order'         => 'DESC',
-        'paged'         => $paged
+        'post_type'         => 'reminder',
+        'meta_key'          => 'simdiaw-start-date',
+        'orderby'           => 'meta_value',
+        'order'             => 'DESC',
+        'posts_per_page'    => $reminders_count,
+        'paged'             => $paged
     );
     query_posts( $args );
 }

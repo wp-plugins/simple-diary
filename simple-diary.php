@@ -108,7 +108,7 @@ function add_simdiaw_columns($gallery_columns) {
     $new_columns['start_date'] = __( 'Starting date', 'simdiaw' );
     $new_columns['end_date'] = __( 'Ending date', 'simdiaw' );
     $new_columns['location'] = __('Location','simdiaw');
-    $new_columns['date'] = __('Created/modified', 'simdiaw');
+    $new_columns['date'] = __('Created or modified', 'simdiaw');
  
     return $new_columns;
 }

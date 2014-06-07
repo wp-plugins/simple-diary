@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: simdiw french translation\n"
-"POT-Creation-Date: 2014-06-06 10:49+0100\n"
-"PO-Revision-Date: 2014-06-06 10:49+0100\n"
+"POT-Creation-Date: 2014-06-07 10:54+0100\n"
+"PO-Revision-Date: 2014-06-07 10:54+0100\n"
 "Last-Translator: Jojaba <jojaba@gmail.com>\n"
 "Language-Team: Jojaba <jojaba@gmail.com>\n"
 "Language: French\n"
@@ -149,7 +149,6 @@ msgid "New"
 msgstr "Ajouter"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:33
-#, fuzzy
 msgid "Add a reminder"
 msgstr "Ajouter un pense-bête"
 
@@ -248,8 +247,8 @@ msgid "Location"
 msgstr "Lieu"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:111
-msgid "Created/modified"
-msgstr "Créé/modifié"
+msgid "Created or modified"
+msgstr "Créé ou modifié"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:218
 msgid "Info about the reminder"

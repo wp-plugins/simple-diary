@@ -41,10 +41,32 @@
 #simdiaw_meta label {
 }
 
+@media screen and (max-width:782px) {
+    column-end_date, column-location {
+        display: none;
+    }
+    .column-title {
+        width: 80%;
+    }
+    
+    .column-start_date {
+        width: 20%;
+    }
+}
+    
+
 @media (max-width: 480px) {
     .simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-location, .simdiaw-url, .simdiaw-art {
         float: none;
         width: 75%;
         margin-left: 55px;
+    }
+    
+    .column-start_date {
+        display: none;
+    }
+    
+    .column-title {
+        width: 100%;
     }
 }

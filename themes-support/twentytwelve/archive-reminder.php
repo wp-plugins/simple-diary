@@ -24,10 +24,18 @@ get_header(); ?>
 				
 				get_template_part( 'content-reminder', get_post_format() );
 
-			endwhile;
+			    endwhile;
 
-			twentytwelve_content_nav( 'nav-below' );
-			?>
+			// Navigation below
+            global $wp_query;
+
+            if ( $wp_query->max_num_pages > 1 ) : ?>
+                <nav id="nav-below" class="navigation" role="navigation">
+                    <h3 class="assistive-text"><?php _e( 'Reminder navigation', 'simdiaw' ); ?></h3>
+                    <div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older reminders', 'simdiaw' ) ); ?></div>
+                    <div class="nav-next"><?php previous_posts_link( __( 'Newer reminders <span class="meta-nav">&rarr;</span>', 'simdiaw' ) ); ?></div>
+                </nav><!-- #nav-below .navigation -->
+            <?php endif; ?>
 
 		<?php else : ?>
 			<?php get_template_part( 'content', 'none' ); ?>

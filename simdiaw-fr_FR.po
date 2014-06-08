@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: simdiw french translation\n"
-"POT-Creation-Date: 2014-06-07 21:55+0100\n"
-"PO-Revision-Date: 2014-06-07 22:17+0100\n"
+"Project-Id-Version: Simple Diary french translation\n"
+"POT-Creation-Date: 2014-06-08 17:05+0100\n"
+"PO-Revision-Date: 2014-06-08 17:27+0100\n"
 "Last-Translator: Jojaba <jojaba@gmail.com>\n"
 "Language-Team: Jojaba <jojaba@gmail.com>\n"
 "Language: French\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -334,6 +334,139 @@ msgstr "… soit un article"
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:322
 msgid "required informations."
 msgstr "informations nécessaires."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/archive-reminder.php:36
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/archive-reminder.php:40
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Désolé, mais aucun pense-bête n'a été trouvé. Peut-être qu'une recherche "
+"vous aidera une information en relation."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:26
+msgid "Reply"
+msgstr "Réponse"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:26
+msgid "1"
+msgstr "1"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:26
+msgid "%"
+msgstr "%"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:37
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:28
+msgid "Leave a reply"
+msgstr "Répondre"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:37
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> Réponse"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:37
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> Réponses"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/content-reminder.php:39
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/content-reminder.php:32
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:53
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/content-reminder.php:33
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:44
+msgid "Edit"
+msgstr "Modifier"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/content-reminder.php:31
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/content-reminder.php:46
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/content-reminder.php:31
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/content-reminder.php:31
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/single-reminder.php:31
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/archive-reminder.php:34
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/single-reminder.php:20
+msgid "Reminder navigation"
+msgstr "Navigation du pense-bête."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/single-reminder.php:34
+msgid "<span class=\"meta-nav\">Previous Reminder</span>%title"
+msgstr "<span class=\"meta-nav\">Pense-bête précédent</span>%title"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyfourteen/single-reminder.php:35
+msgid "<span class=\"meta-nav\">Next Reminder</span>%title"
+msgstr "<span class=\"meta-nav\">Pense-bête suivant</span>%title"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:15
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/single-reminder.php:21
+msgid "&larr;"
+msgstr "&larr;"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:16
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/single-reminder.php:22
+msgid "&rarr;"
+msgstr "&larr;"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:32
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/content-reminder.php:40
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:35
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:41
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:55
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyten/loop-reminder.php:45
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:59
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+"Afficher toutes les contributions de %s <span class=\"meta-nav\">&rarr;</"
+"span>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/archive-reminder.php:36
+msgid "Reminders navigation"
+msgstr "Navigation des pense-bêtes"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/archive-reminder.php:40
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/archive-reminder.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older reminders"
+msgstr "<span class=\"meta-nav\">&larr;</span> Pense-bêtes anciens"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/archive-reminder.php:44
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/archive-reminder.php:36
+msgid "Newer reminders <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pense-bêtes récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/content-reminder.php:46
+msgid "One comment so far"
+msgstr "Un commentaire pour l'instant"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentythirteen/content-reminder.php:46
+#, php-format
+msgid "View all % comments"
+msgstr "Afficher tous les % commentaires"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:28
+msgid "1 Reply"
+msgstr "1 réponse"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentytwelve/content-reminder.php:28
+msgid "% Replies"
+msgstr "% réponses"
 
 #~ msgid "Here you can set the options of Simple Diary plugin."
 #~ msgstr "Ici vous pouvez définir les paramètres du plugin Simple Diary"

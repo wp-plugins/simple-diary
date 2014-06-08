@@ -18,7 +18,7 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title"><?php get_simdiaw_title(true); ?></h1>
 			</header><!-- .page-header -->
-
+            
 			<?php
 					// Start the Loop.
 					the_simdiaw_reminders_query();

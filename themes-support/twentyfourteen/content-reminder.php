@@ -28,8 +28,8 @@
 				    the_simdiaw_date();
 				    if (has_simdiaw_start_time()) the_simdiaw_time();
                 ?>
-			<br><span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
-			<?php edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
+			<br><span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'simdiaw' ), __( '1 Comment', 'simdiaw' ), __( '% Comments', 'simdiaw' ) ); ?></span>
+			<?php edit_post_link( __( 'Edit', 'simdiaw' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 

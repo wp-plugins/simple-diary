@@ -30,20 +30,20 @@
 			the_simdiaw_meta_date();
 		    the_simdiaw_date();
 		    if (has_simdiaw_start_time()) the_simdiaw_time();
-			edit_post_link( __( 'Edit', 'twentythirteen' ), '<br><span class="edit-link">', '</span>' );
+			edit_post_link( __( 'Edit', 'simdiaw' ), '<br><span class="edit-link">', '</span>' );
 			?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_simdiaw_location();the_simdiaw_link(); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'simdiaw' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 	</div><!-- .entry-content -->
 	
 	<footer class="entry-meta">
 		<?php if ( comments_open() && ! is_single() ) : ?>
 			<div class="comments-link">
-				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'twentythirteen' ) . '</span>', __( 'One comment so far', 'twentythirteen' ), __( 'View all % comments', 'twentythirteen' ) ); ?>
+				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'simdiaw' ) . '</span>', __( 'One comment so far', 'simdiaw' ), __( 'View all % comments', 'simdiaw' ) ); ?>
 			</div><!-- .comments-link -->
 		<?php endif; // comments_open() ?>
 

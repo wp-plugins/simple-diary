@@ -1,0 +1,72 @@
+.simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-location, .simdiaw-url, .simdiaw-art {
+    float: left;
+    margin: 1.5% 0 0 1%;
+}
+
+.simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-url, .simdiaw-art {
+    width: 43%;
+}
+
+.simdiaw-location {
+    width: 87%
+}
+
+#simdiaw_meta .dashicons {
+    clear: left;
+    display: block;
+    float: left;
+    margin-top: 2%;
+    width: 52px;
+    height: 52px;
+    font-size: 52px;
+}
+
+#simdiaw_meta .req {
+    padding-top: 30px;
+    clear: left;
+    text-align: right;
+}
+
+#simdiaw_meta .req span {
+    font-weight: bold;
+    text-shadow: -1px 1px 1px #FFF;
+}
+
+#simdiaw_meta input, #simdiaw_meta select {
+	font-size: 1.2em;
+	padding: 3px 8px;
+	width: 100%;
+}
+
+#simdiaw_meta label {
+}
+
+@media screen and (max-width:782px) {
+    column-end_date, column-start_time, column-end_time, column-location {
+        display: none;
+    }
+    .column-title {
+        width: 80%;
+    }
+    
+    .column-start_date {
+        width: 20%;
+    }
+}
+    
+
+@media (max-width: 480px) {
+    .simdiaw-start-date, .simdiaw-end-date, .simdiaw-start-time, .simdiaw-end-time, .simdiaw-location, .simdiaw-url, .simdiaw-art {
+        float: none;
+        width: 75%;
+        margin-left: 55px;
+    }
+    
+    .column-start_date {
+        display: none;
+    }
+    
+    .column-title {
+        width: 100%;
+    }
+}

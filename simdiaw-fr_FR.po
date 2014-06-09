@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simple Diary french translation\n"
-"POT-Creation-Date: 2014-06-09 07:26+0100\n"
-"PO-Revision-Date: 2014-06-09 07:26+0100\n"
+"POT-Creation-Date: 2014-06-09 11:42+0100\n"
+"PO-Revision-Date: 2014-06-09 11:45+0100\n"
 "Last-Translator: Jojaba <jojaba@gmail.com>\n"
 "Language-Team: Jojaba <jojaba@gmail.com>\n"
 "Language: French\n"
@@ -31,61 +31,90 @@ msgid "Save Changes"
 msgstr "Enregistrer les modifications"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:87
+msgid "Help"
+msgstr "Aide"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:95
 msgid "Frontend settings"
 msgstr "Paramètres pour partie publique"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:95
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:103
 msgid "Diary page title"
 msgstr "Titre de la page agenda"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:103
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:111
 msgid "Slug"
 msgstr "Slug (identifiant)"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:111
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:119
 msgid "Upcoming reminders count"
 msgstr "Nombre de pense-bêtes à venir"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:119
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:127
 msgid "Reminders count"
 msgstr "Nombre de pense-bêtes"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:128
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:136
 msgid "Backend settings"
 msgstr "Paramètres pour partie administrative"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:135
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:143
 msgid "Columns in edit page"
 msgstr "Colonnes dans le listing des pense-bêtes"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:150
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
+msgid ""
+"If you need help using Simple Diary, we recommand you to visit the official "
+"plugin page. Here a few links (opening in new window):"
+msgstr ""
+"Si vous avez besoin d'aide, nous vous recommandons de vous rendre à la page "
+"officielle de Simple Diary. Voici quelques liens (s'ouvrent dans une "
+"nouvelle fenêtre)&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
+msgid "The description page"
+msgstr "La page de description"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
+msgid "The installation page"
+msgstr "La page d'installation"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
+msgid "The faq"
+msgstr "La faq"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
+msgid "The support page"
+msgstr "La page d'assistance"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:166
 msgid ""
 "Here you can set some parameters that will impact the frontend templates "
 "(the public site)."
 msgstr ""
 "Ici vous pouvez définir des paramètres impactant les templates du site."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:158
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:245
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:174
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:261
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:7
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:249
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:40
 msgid "Diary"
 msgstr "Agenda"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:163
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:179
 msgid "The title that will be displayed on top of diary pages."
 msgstr "Le titre qui s'affichera en haut des pages agenda"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:171
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:250
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:187
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:266
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:8
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-template-functions.php:256
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:28
 msgid "diary"
 msgstr "agenda"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:176
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:192
 #, php-format
 msgid ""
 "The slug that is used to identify the reminders page. This slug must be URL "
@@ -103,7 +132,7 @@ msgstr ""
 "d'agenda par l'url <code>%1$s</code>. Dans tous les cas, cette page est "
 "accessible par l'url <code>%2$s</code>."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:189
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:205
 msgid ""
 "Default number of upcoming reminders that should be displayed when using for "
 "exemple handcrafted sidebar element with <code>the_simdiaw_upcoming_reminders"
@@ -120,7 +149,7 @@ msgstr ""
 "code> (exemple&nbsp;: <code>the_simdiaw_upcoming_reminders(5)</code> "
 "affichera les 5 pense-bêtes à venir)."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:202
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:218
 msgid ""
 "Default number of reminders that should be displayed in Diary pages. Will be "
 "overriden by value set in the <code>the_simdiaw_reminders_query()</code> "
@@ -135,7 +164,7 @@ msgstr ""
 "code> (exemple&nbsp;: <code>the_simdiaw_upcoming_reminders(5)</code> "
 "affichera les 5 pense-bêtes à venir)."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:209
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:225
 msgid ""
 "Here you can set some parameters that will impact the backend system "
 "(management of the reminders on administration side)."
@@ -143,36 +172,36 @@ msgstr ""
 "Ici vous pouvez définir des paramères impactant le système dans la partie "
 "administrative."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:220
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:236
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:115
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:262
 msgid "Ending date"
 msgstr "Date de fin"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:222
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:238
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:117
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:272
 msgid "Starting time"
 msgstr "Horaire de début"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:224
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:240
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:119
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:277
 msgid "Ending time"
 msgstr "Horaire de fin"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:226
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:242
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:121
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:286
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:287
 msgid "Location"
 msgstr "Lieu"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:228
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:244
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:123
 msgid "Created or modified"
 msgstr "Créé ou modifié"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:231
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:247
 msgid ""
 "The columns that should be displayed in edit page. Title and starting date "
 "displayed by default."
@@ -327,27 +356,27 @@ msgstr "DATE"
 msgid "TIME"
 msgstr "HORAIRE"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:283
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:284
 msgid "LOCATION"
 msgstr "LIEU"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:291
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:293
 msgid "LINK"
 msgstr "LIEN"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:294
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:296
 msgid "Either an URL"
 msgstr "Soit une URL"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:303
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:305
 msgid "No article selected"
 msgstr "Pas d'article sélectionné"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:317
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:319
 msgid "… or an article"
 msgstr "… soit un article"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:323
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:325
 msgid "required informations."
 msgstr "informations nécessaires."
 

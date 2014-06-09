@@ -80,8 +80,16 @@ if( !function_exists('simdiaw_options_settings'))  {
 			'simdiaw_settings_options', // $option_name The name of an option to sanitize and save.
 			'simdiaw_options_validate' // $sanitize_callback  A callback function that sanitizes the option's value.
         );
+        
+        /** Add help section **/
+		add_settings_section(
+			'simdiaw_help_options', //  section name unique ID
+			__( 'Help', 'simdiaw' ), // Title or name of the section (to be output on the page), you can leave nbsp here if not wished to display
+			'simdiaw_help_text',  // callback to display the content of the section itself
+			'simdiaw_setting_section' // The page name. This needs to match the text we gave to the do_settings_sections function call 
+        );
 
-		/** Add a section **/
+		/** Add frontend settins section **/
 		add_settings_section(
 			'simdiaw_frontend_options', //  section name unique ID
 			__( 'Frontend settings', 'simdiaw' ), // Title or name of the section (to be output on the page), you can leave nbsp here if not wished to display
@@ -144,6 +152,14 @@ if( !function_exists('simdiaw_options_settings'))  {
  * Output of main sections and options fields
  */
 
+/** the help section output **/
+if( !function_exists('simdiaw_help_text'))  {
+	function simdiaw_help_text(){
+	echo '<p>'.__( 'If you need help using Simple Diary, we recommand you to visit the official plugin page. Here a few links (opening in new window):', 'simdiaw' ).' <a href="https://wordpress.org/plugins/simple-diary/" target="_blank">'.__( 'The description page', 'simdiaw' ).'</a>, <a href="https://wordpress.org/plugins/simple-diary/installation/" target="_blank">'.__( 'The installation page', 'simdiaw' ).'</a>, <a href="https://wordpress.org/plugins/simple-diary/faq/" target="_blank">'.__( 'The faq', 'simdiaw' ).'</a>, <a href="http://wordpress.org/support/plugin/simple-diary" target="_blank">'.__( 'The support page', 'simdiaw' ).'</a>.'."\n";
+	echo '</p>'."\n";
+	}
+} 
+ 
 /** the frontend section output **/
 if( !function_exists('simdiaw_frontend_options_text'))  {
 	function simdiaw_frontend_options_text(){

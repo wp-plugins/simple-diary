@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5PXUP
 Tags: diary, reminders, custom post type
 Requires at least: 3.8
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Here's the list of the settings (see screenshots for further infos):
 
 * Custom post type "reminder" available. The reminder infos : Title, start date (required), end date (optional), start time(optional), end time (optional), location (required), url (optionnal), article (optional). The date and time infos are set using [pickadate.js](http://amsul.ca/pickadate.js/ "Go to the pickadate.js homepage") jQuery plugin. All the system (compose reminder page and datepicker) is responsive.
 * The admin reminders edit page is sorted by start date and contain title, start date, end date, location and creation/modification date. All columns are sortable except location column.
-* Option page will let you modify some settings : Title of the diary page, slug modification, reminder count listed in upcoming reminders.
+* Option page will let you modify some settings : Title of the diary page, slug modification, reminder count listed in upcoming reminders, reminder count in diary, selection of the columns in edit page.
 * All default WordPress themes (twentyten, twentyeleven, twentytwelve, twentythirteen, twentyfourteen) can easily be updated to take in account the reminders. You just have to get archive-reminder.php, content-reminder.php or loop-reminder.php, single-reminder.php from `/simple-diary/themes-support/your_theme/` and put it into your hteme folder (`/wp-content/themes/your-theme/`). You can take these files also as examples to customize Diary and reminders for your theme.
 * A "Upcoming reminders" widget is available in the admin widget section.
 
@@ -65,7 +65,7 @@ Will generate a html code like this:
 
 1. The Reminder compose window
 2. The diary edit page
-3. The Smple Diary options
+3. The Simple Diary options
 4. The Simple Diary widget in the admin page
 5. The widget in the Twenty Fourteen theme sidebar (frontend)
 6. The diary page in the Twenty Fourteen theme (frontend)
@@ -73,6 +73,13 @@ Will generate a html code like this:
 
 
 == Changelog ==
+
+= 1.1 =
+* Make edit page responsive
+* Adding new options: reminder count for diary, column to display in edit page selection.
+* Fixing typos in translation
+* Internationalization of theme support template improved
+Note: you should replace the previous theme support files you uploaded into the right theme folder by this new set. 
 
 = 1.0 =
 * First release. Thanks for your feedback!

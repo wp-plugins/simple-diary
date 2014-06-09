@@ -280,6 +280,7 @@ function simdiaw_meta_callback( $post ) {
     
     
     <!-- The location (Required) -->
+    
     <div class="dashicons dashicons-location-alt" title="<?php _e( 'LOCATION', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-location simdiaw-row">
@@ -288,6 +289,7 @@ function simdiaw_meta_callback( $post ) {
     </div>
 
     <!-- The URL or the Article (optionnal) -->
+    
     <div class="dashicons dashicons-share-alt2" title="<?php _e( 'LINK', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-url">
@@ -342,11 +344,18 @@ function simdiaw_meta_callback( $post ) {
             });
         });
         
-        /* url and article behaviour */
-        if (jQuery("#simdiaw-art-id").val() > 0)  jQuery("#simdiaw-url").css("color", "#ddd");
+        /* url and article behaviour (changing color related to state) */
+        if (jQuery("#simdiaw-art-id").val() > 0)  jQuery("#simdiaw-url").css("color", "#919191");
+        else jQuery("#simdiaw-art-id").css("color", "#919191");
         jQuery("#simdiaw-art-id").on("change", function() {
-            if (jQuery(this).val() > 0) jQuery("#simdiaw-url").css("color", "#ddd");
-            else jQuery("#simdiaw-url").css("color", "#333");
+            if (jQuery(this).val() > 0) { 
+                jQuery("#simdiaw-url").css("color", "#919191");
+                jQuery("#simdiaw-art-id").css("color", "#333");
+            }
+            else {
+                jQuery("#simdiaw-url").css("color", "#333");
+                jQuery("#simdiaw-art-id").css("color", "#919191");
+            }
         });
     });
     </script>

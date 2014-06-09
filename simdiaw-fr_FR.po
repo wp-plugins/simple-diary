@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simple Diary french translation\n"
-"POT-Creation-Date: 2014-06-08 17:05+0100\n"
-"PO-Revision-Date: 2014-06-08 17:27+0100\n"
+"POT-Creation-Date: 2014-06-09 07:26+0100\n"
+"PO-Revision-Date: 2014-06-09 07:26+0100\n"
 "Last-Translator: Jojaba <jojaba@gmail.com>\n"
 "Language-Team: Jojaba <jojaba@gmail.com>\n"
 "Language: French\n"
@@ -144,31 +144,31 @@ msgstr ""
 "administrative."
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:220
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:114
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:261
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:115
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:262
 msgid "Ending date"
 msgstr "Date de fin"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:222
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:116
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:271
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:117
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:272
 msgid "Starting time"
 msgstr "Horaire de début"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:224
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:118
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:276
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:119
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:277
 msgid "Ending time"
 msgstr "Horaire de fin"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:226
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:120
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:285
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:121
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:286
 msgid "Location"
 msgstr "Lieu"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simdiaw-options.php:228
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:122
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:123
 msgid "Created or modified"
 msgstr "Créé ou modifié"
 
@@ -215,7 +215,7 @@ msgid "Number of reminders to show:"
 msgstr "Nombre de pense-bêtes à afficher&nbsp:"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:30
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:111
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:112
 msgid "Reminders"
 msgstr "Pense-bêtes"
 
@@ -251,45 +251,45 @@ msgstr "Afficher le pense-bête"
 msgid "Search for reminders"
 msgstr "Chercher dans les pense-bêtes"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:81
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:82
 #, php-format
 msgid "Reminder updated. <a href=\"%s\">View reminder</a>"
 msgstr "Pense-bête mis à jour. <a href=\"%s\">Afficher le pense-bête</a>"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:82
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:83
 msgid "Custom field updated."
 msgstr "Champ personnalisé mis à jour."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:83
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:84
 msgid "Custom field deleted."
 msgstr "Champs personnalisé supprimé."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:84
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:85
 msgid "Reminder updated."
 msgstr "Pense-bête mis à jour."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:86
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:87
 #, php-format
 msgid "Reminder restored to revision from %s"
 msgstr "Pense-bête rétabli à la révision %s"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:87
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:88
 #, php-format
 msgid "Reminder published. <a href=\"%s\">View reminder</a>"
 msgstr "Pense-bête publié.  <a href=\"%s\">Afficher le pense-bête</a>"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:88
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:89
 msgid "Reminder saved."
 msgstr "Pense-bête enregistré."
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:89
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:90
 #, php-format
 msgid ""
 "Reminder submitted. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
 msgstr ""
 "Pense-bête envoyé. <a target=\"_blank\" href=\"%s\">Aperçu du pense-bête</a>"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:90
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:91
 #, php-format
 msgid ""
 "Reminder scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
@@ -298,11 +298,11 @@ msgstr ""
 "Pense-bête programmé pour : <strong>%1$s</strong>. <a target=\"_blank\" href="
 "\"%2$s\">Aperçu du pense-bête</a>"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:92
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:93
 msgid "M j, Y @ G:i"
 msgstr "j, M Y à G:i"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:93
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:94
 #, php-format
 msgid ""
 "Reminder draft updated. <a target=\"_blank\" href=\"%s\">Preview reminder</a>"
@@ -310,28 +310,44 @@ msgstr ""
 "Brouillon du pense-bête mis à jour. <a target=\"_blank\" href=\"%s\">Aperçu "
 "du pense-bête</a>"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:112
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:256
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:113
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:257
 msgid "Starting date"
 msgstr "Date de début"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:239
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:240
 msgid "Info about the reminder"
 msgstr "Informations à propos du pense-bête"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:293
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:254
+msgid "DATE"
+msgstr "DATE"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:269
+msgid "TIME"
+msgstr "HORAIRE"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:283
+msgid "LOCATION"
+msgstr "LIEU"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:291
+msgid "LINK"
+msgstr "LIEN"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:294
 msgid "Either an URL"
 msgstr "Soit une URL"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:302
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:303
 msgid "No article selected"
 msgstr "Pas d'article sélectionné"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:316
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:317
 msgid "… or an article"
 msgstr "… soit un article"
 
-#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:322
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:323
 msgid "required informations."
 msgstr "informations nécessaires."
 

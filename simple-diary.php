@@ -53,7 +53,8 @@ require_once( dirname( __FILE__ ) . '/simdiaw-template-functions.php' );
       'capability_type'    => 'post',
       'has_archive'        => true,
       'hierarchical'       => false,
-      'supports'           => array( 'title', 'comments' )
+      'supports'           => array( 'title', 'comments' ),
+      'taxonomies'         => array( 'post_tag' ),
     );
     
     register_post_type( 'reminder', $args );
@@ -250,7 +251,7 @@ function simdiaw_meta_callback( $post ) {
     
     <!-- The date -->
     
-    <div class="dashicons dashicons-calendar"></div>
+    <div class="dashicons dashicons-calendar" title="<?php _e( 'DATE', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-start-date">
         <label for="simdiaw-start-date"><?php _e( 'Starting date', 'simdiaw' )?> <span class="req">*</span></label><br>
@@ -265,7 +266,7 @@ function simdiaw_meta_callback( $post ) {
     
     <!-- The time -->
     
-    <div class="dashicons dashicons-clock"></div>
+    <div class="dashicons dashicons-clock" title="<?php _e( 'TIME', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-start-time">
         <label for="simdiaw-start-date"><?php _e( 'Starting time', 'simdiaw' )?></label><br>
@@ -279,7 +280,7 @@ function simdiaw_meta_callback( $post ) {
     
     
     <!-- The location (Required) -->
-    <div class="dashicons dashicons-location-alt"></div>
+    <div class="dashicons dashicons-location-alt" title="<?php _e( 'LOCATION', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-location simdiaw-row">
         <label for="simdiaw-loc"><?php _e( 'Location', 'simdiaw' )?> <span class="req">*</span></label><br>
@@ -287,7 +288,7 @@ function simdiaw_meta_callback( $post ) {
     </div>
 
     <!-- The URL or the Article (optionnal) -->
-    <div class="dashicons dashicons-share-alt2"></div>
+    <div class="dashicons dashicons-share-alt2" title="<?php _e( 'LINK', 'simdiaw' )?>"></div>
     
     <div class="simdiaw-url">
         <label for="simdiaw-url"><?php _e( 'Either an URL', 'simdiaw' )?></label><br>

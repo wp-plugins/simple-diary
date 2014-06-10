@@ -5,7 +5,7 @@ Text Domain: simdiaw
 Plugin URI: http://perso.jojaba.fr/
 Description: Provides a very simple way to define reminders for diary. Embedded in default themes and customisable for others, responsive admin pages, translatable.
 Author: Jojaba
-Version: 1.0
+Version: 1.1
 Author URI: http://perso.jojaba.fr/
 */
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simple Diary french translation\n"
-"POT-Creation-Date: 2014-06-09 11:42+0100\n"
-"PO-Revision-Date: 2014-09-24 06:02+0100\n"
+"POT-Creation-Date: 2014-09-27 20:06+0100\n"
+"PO-Revision-Date: 2014-09-27 20:06+0100\n"
 "Last-Translator: Jojaba <jojaba@gmail.com>\n"
 "Language-Team: Jojaba <jojaba@gmail.com>\n"
 "Language: French\n"
@@ -377,6 +377,10 @@ msgstr "… soit un article"
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:325
 msgid "required informations."
 msgstr "informations nécessaires."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/simple-diary.php:341
+msgid "Clear"
+msgstr "Effacer"
 
 #: G:\wamp\www\wordpress\wp-content\plugins\simple-diary/themes-support/twentyeleven/archive-reminder.php:36
 msgid "Nothing Found"

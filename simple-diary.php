@@ -442,8 +442,7 @@ function simdiaw_date_time_picker_enqueue() {
         wp_enqueue_script( 'simdiaw-box-date-js', plugin_dir_url( __FILE__ ) . 'pickadate/lib/picker.date.js' );
         wp_enqueue_script( 'simdiaw-box-time-js', plugin_dir_url( __FILE__ ) . 'pickadate/lib/picker.time.js' );
         wp_enqueue_script( 'simdiaw-box-legacy-js', plugin_dir_url( __FILE__ ) . 'pickadate/lib/legacy.js' );
-        if (file_exists('../wp-content/plugins/simple-diary/pickadate/lib/translations/'.WPLANG.'.js'))
-            wp_enqueue_script( 'simdiaw-box-fr-js', plugin_dir_url( __FILE__ ) . 'pickadate/lib/translations/'.WPLANG.'.js' );
+        wp_enqueue_script( 'simdiaw-box-fr-js', plugin_dir_url( __FILE__ ) . 'pickadate/lib/translations/'.get_locale().'.js' );
     }
 }
 add_action( 'admin_enqueue_scripts', 'simdiaw_date_time_picker_enqueue' );
